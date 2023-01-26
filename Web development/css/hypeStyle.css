@@ -1,0 +1,24 @@
+.bigtext{
+    font-size: 50px;
+    font: weight 1px; 
+}
+
+a.first{
+    background-color: chartreuse;
+    color: coral;
+}
+
+table,tr,th,td{
+    border: 4px double magenta;
+    border-collapse: collapse;
+    padding: 10px;
+}
+th{
+    background-color:#f39c12 ;
+}
+
+tbody{
+    background-color: #27ae60;
+
+}
+

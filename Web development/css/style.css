@@ -1,0 +1,95 @@
+*{
+    
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+/*img{
+    padding-left: 0px;
+    background-size: cover;
+    position: relative;
+    background-image:linear-gradient(rgba(0, 0, 0, 0.726))
+}
+*/
+
+a.shotcut{
+    text-decoration: none;
+    text-align: center;
+    color: aqua;
+    padding: 10px;
+    float: left;
+}
+a:active{
+    color: darkblue;
+}
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+li{
+    list-style: none;
+    padding: 50px;
+    position: sticky;
+    text-decoration: none;
+    margin: -10px;
+
+}
+nav{
+    display:inline-block;
+    overflow: hidden;
+    background-color: gray;
+}
+ a:hover.Shotcut{
+     background-color: yellow;
+     color: black;
+     text-transform: uppercase;
+     text-decoration: dotted;
+ }
+
+h1{color: coral;
+
+}
+
+h5{
+    box-align: center;
+}
+
+.name{color: rgb(0, 0, 0);
+padding-left: 60px;
+
+}
+ h4{color: blue;}
+ a{ color:#000000 ;
+    font-size: 150%;
+
+}
+
+img{
+    border-radius: 100%;
+    border-style: groove double;
+    border-color: skyblue;
+    padding: 4px;
+}
+
+h3{
+    font-family:cursive;
+    color: aliceblue;
+    background-color: rgb(0, 128, 255);
+    height: 30px;
+    width: 100px;
+}
+
+ a:hover.links{
+     display: block;
+     width: 330px;
+     color: rgb(184, 243, 8); 
+     text-decoration: none;
+     background-color: black;
+     padding: 2px; ;
+
+ }
+
+ div.Shotcut{
+     display: list-item;
+ }

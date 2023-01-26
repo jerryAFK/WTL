@@ -1,0 +1,80 @@
+<html>
+<head>
+    
+    <title>Document</title>
+</head>
+<body>
+    <button onclick="FindPercent()">Find percentage best of 5</button>
+    <script langauge="javascript" type="text/javascript" font-size="40px">
+// arrays
+       var arr= new Array(7,5,6,2,4,9,3,8,2,6);
+       var i,j, temp;
+       document.write("<br> <br> Before sort...<br><br>");
+       for (i=0; i<11;i++){
+        document.write(arr[i]+ "<br>");
+       }
+
+       for(i=0;i<11;i++){
+        for(j=0;j<11;j++){
+            if (arr[j]> arr[j+1]){
+                temp= arr[j];
+                arr[j]= arr[j+1];
+                arr[j+1]=temp;
+            }
+        }
+    
+       }
+       document.write("<br> <br> Before sort...<br><br>");
+       for(i=0;i<11;i++){
+        document.write(arr[i]+ "<br>");
+       }
+
+// printing of information
+       
+       var name = "john";
+        var age = 13;
+        var marks = 50.4;
+        
+        document.write("Name:-" + name + "<br>" );
+        document.write("age:-" + age + "<br>");
+        document.write("marks:-" + marks + "<br>");
+
+
+
+// if else if
+function FindPercent(){
+var marks1 = parseInt(prompt("Enter marks1", "enter"));
+var marks2 = parseInt(prompt("Enter marks2", "enter"));
+var marks3 = parseInt(prompt("Enter marks3", "enter"));
+var marks4 = parseInt(prompt("Enter marks4", "enter"));
+var marks5 = parseInt(prompt("Enter marks5", "enter"));
+
+var total = marks1+ marks2+ marks3+ marks4+ marks5;
+var percent = total*100/500;
+alert("The total precentage scored is "+percent);
+
+if(percent<40) {
+    alert("fail, Grade F");
+}
+else if (percent= 50){
+    alert("Grade D");
+}
+else if(percent<=60){
+    alert("Grade C");
+}
+else if(percent<80){
+    alert("Grade B");
+}
+else if(percent>=80){
+    alert("Grade A");
+}
+else if(percent>90){
+    alert("Grade A+");
+}
+
+        
+}
+
+    </script>
+</body>
+</html>

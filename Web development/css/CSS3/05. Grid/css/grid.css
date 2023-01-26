@@ -1,0 +1,30 @@
+.grid{
+  display:grid;
+  grid-template-columns: auto auto auto;
+  background-color: darkblue;
+  padding: 4px;
+}
+.entries{
+  background-color: cyan;
+  border: solid 1px darkblue;
+  padding: 4px;
+  font-size: 30px;
+  text-align: center;
+  border-radius: 4px;
+}
+.grid1{
+  display:grid;
+  grid-row-gap: 10px;
+  grid-column-gap: 10px;
+  grid-template-columns: auto auto auto;
+  background-color: lightblue;
+  padding: 4px;
+}
+.entries1{
+  background-color: cyan;
+  border: solid 1px darkblue;
+  padding: 4px;
+  font-size: 30px;
+  text-align: center;
+  border-radius: 4px;
+}

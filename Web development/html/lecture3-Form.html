@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Payment info gateway</title>
+    <link rel="stylesheet" href="Form.css">
+</head>
+<body>
+    <div class="payment">
+<form >
+   <h1>Payment form</h1>
+    <hr color="black">
+    <h2>contact info</h2>
+    <p>Required feilds are *</p>
+   <fieldset>
+       <legend>Name :*</legend>
+    <p> First name :<input type="text" required placeholder="Aditya"></p>
+      <p>  Last name :<input type="text" required placeholder="pandey"></p>
+          </fieldset>
+          <fieldset>
+          <legend> Gender :* </legend>
+
+             <p>  male <input type="radio" name="Gender" id="male" required> Female <input type="radio" name="Gender" id="Female"></p>
+
+            </fieldset>
+
+            <p><b> Address </b> : <textarea name="Address" id="address" cols="80" rows="10" placeholder="area,landmark,plot/falt no., city, state-pincode,country"></textarea> </p>
+            <p>Email *: <input type="email" name="email" id="email" placeholder="something@anymail.com" required> </p>
+            <p>Pincode *: <input type="number" name="pincode" id="pincode" placeholder="123456" required></p>
+<hr color="Black">
+<hr color="Black">
+
+
+<h2>Pament info</h2>
+<p>Card category *:
+  <select name="card_type" id="card_type"  required>  
+        <option value="">--select a card category-- </option>
+        <option value="Debit">Debit</option>
+        <option value="credit">credit</option>
+        <option value="Paypal">Paypal</option>
+        <option value="Paytm">Paytm</option>
+    </select>
+</p>
+<p> Card type *: 
+        <select name="card_type" id="card_type" required>
+            <option value="">--select a card type-- </option>
+            <option value="Debit">Rupay</option>
+            <option value="credit">visa</option>
+        </select>
+</p>
+    
+<p> Card number* : <input type="text" name="Card no." id="12 digits no." placeholder="1234-5678-2467" required></p>
+<p>Expirey Date *: <input type="date" name="expirey date" id="expirey date" required></p>
+             
+<p>Name on the card : <input type="text" placeholder="Aditya prakash pandey"></p>
+
+<p>CVV *: <input type="password" name="cvv" id="cvv" placeholder="xxx" required></p>
+
+<hr>
+<hr>
+<hr>
+
+<input type="button" value="Pay Now">
+</div>
+</form>
+</body>
+</html>
